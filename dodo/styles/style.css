@@ -1,0 +1,271 @@
+html,
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "Nunito Regular";
+	src: url("../fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Nunito SemiBold";
+	src: url("../fonts/Nunito-SemiBold.ttf");
+}
+
+@font-face {
+	font-family: "Nunito Bold";
+	src: url("../fonts/Nunito-Bold.ttf");
+}
+
+.mt-70{
+	margin-top: 70px;
+}
+h1,
+h2,
+p {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	height: 116px;
+	margin-top: 25px;
+}
+
+button {
+	cursor: pointer;
+}
+
+a {
+	transition: .25s;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	transition: .25s;
+	color: #F96900 !important;
+}
+
+.container {
+	width: 1160px;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+header .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 116px;
+}
+
+.logo {
+	width: 248px;
+}
+
+.tel a {
+	font-family: "Nunito SemiBold";
+	color: black;
+	font-size: 18px;
+}
+
+.tel p {
+	font-family: "Nunito Regular";
+	font-size: 15px;
+	color: #999999;
+	padding: 0;
+	margin: 0;
+}
+
+.header-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	width: 467px;
+	max-width: 100%;
+}
+
+.nav ul li a {
+	font-family: "Nunito Regular";
+	font-size: 14px;
+}
+
+.basket-form button {
+	background: #F96900;
+	width: 104px;
+	height: 40px;
+	font-family: "Nunito SemiBold";
+	font-size: 16px;
+	border: none;
+	color: white;
+	border-radius: 30px;
+}
+
+.container-slider {
+	padding-top: 30px;
+}
+
+.slider {
+	height: 300px;
+	background-image: url("../img/slider.png");
+	background-position: center;
+	background-repeat: repeat-x;
+}
+
+.heading {
+	font-size: 24px;
+	font-family: "Nunito Bold";
+	margin-top: 70px;
+}
+
+.new-items-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	justify-content: space-between;
+}
+
+.new-item {
+	width: 250px;
+	height: 104px;
+	max-width: 100%;
+	box-shadow: 0px 6px 25px rgba(6, 5, 50, 0.05);
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin:0 auto;
+	margin-top: 20px;
+}
+
+.new-item img{
+	padding-right: 22px;
+	width: 76px;
+	height: 76px;
+}
+.new-item p{
+	font-size: 14px;
+	font-family: "Nunito Regular";
+}
+
+.price{
+	font-family: "Nunito SemiBold" !important;
+	color:black !important;
+	font-size: 16px !important;
+}
+
+.pizza-wrapper{
+	margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 60px;
+}
+
+.pizza-item{
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	height: 370px;
+	max-width: 100%;
+}
+
+.pizza-item img{
+	width: 220px;
+	height: 220px;
+	margin-bottom: 5px;
+}
+.pizza-item h2{
+	font-size: 20px;
+	font-family: "Nunito SemiBold";
+	padding-bottom: 10px;
+}
+.pizza-item p{
+	color:#73798C;
+	font-size: 14px;
+	font-family: "Nunito Regular";
+}
+
+.pizza-buy button{
+	font-family: "Nunito SemiBold";
+	font-size: 16px;
+	border: none;
+	color:#D15700;
+	border-radius: 30px;
+	background:#FFF0E6;
+	width: 120px;
+	height: 40px;
+}
+.pizza-buy .make{
+	background: #F96900;
+	color:white;
+}
+.pizza-item .pizza-buy{
+	margin-top: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.combo-wrapper{
+	margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 60px;
+}
+
+.combo-item{
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	height: 370px;
+	max-width: 100%;
+}
+
+.combo-item img{
+	width: 220px;
+	height: 220px;
+	margin-bottom: 5px;
+}
+.combo-item h2{
+	font-size: 20px;
+	font-family: "Nunito SemiBold";
+	padding-bottom: 10px;
+}
+.combo-item p{
+	color:#73798C;
+	font-size: 14px;
+	font-family: "Nunito Regular";
+}
+
+.combo-buy button{
+	font-family: "Nunito SemiBold";
+	font-size: 16px;
+	border: none;
+	border-radius: 30px;
+	width: 120px;
+	height: 40px;
+}
+.combo-buy .make{
+	background: #F96900;
+	color:white;
+}
+.combo-item .combo-buy{
+	margin-top: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
